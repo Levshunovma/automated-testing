@@ -1,0 +1,25 @@
+<suite name="Suite1" verbose="1" >
+    <test name="First and second tests for ekatalog">
+        <classes>
+            <class name="org.levshunov.automated_testing.ekatalog.Tests"/>
+        </classes>
+    </test>
+    <test name="Third test for ekatalog with maxPrice = 1000">
+        <parameter name = "maxPrice" value = "1000"/>
+        <classes>
+            <class name="org.levshunov.automated_testing.ekatalog.MaxPriceTest"/>
+        </classes>
+    </test>
+    <test name="Third test for ekatalog with maxPrice = 5000">
+        <parameter name = "maxPrice" value = "5000"/>
+        <classes>
+            <class name="org.levshunov.automated_testing.ekatalog.MaxPriceTest"/>
+        </classes>
+    </test>
+    <test name="Third test for ekatalog with maxPrice = 7000">
+        <parameter name = "maxPrice" value = "7000"/>
+        <classes>
+            <class name="org.levshunov.automated_testing.ekatalog.MaxPriceTest"/>
+        </classes>
+    </test>
+</suite>
